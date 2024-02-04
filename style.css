@@ -1,0 +1,133 @@
+.carousel-item img{
+    background-size:cover;
+}
+
+.home-page{
+    position:absolute;
+    left:45%;
+    bottom:10%;
+}
+ 
+
+.navbar ul{
+    
+    list-style-type: none;
+    background-color:hsl(0,0%,25%);
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    display:block;
+    text-align:center;
+}
+
+.navbar a:hover{
+    background-color:hsl(0,0%,10%);
+}
+
+.navbar li{
+    float:left;
+    position:relative;
+    left:70%;
+}
+.background{
+    background-image:url('./Logo.png');
+    height:200vh;
+    width:auto;
+    background-size:cover;
+}
+marquee{
+    color:white;
+    font-size:30px;
+}
+
+.about-info{
+    height:500px;
+    width:1000px;
+    border-radius:10px;
+    background-color:white;
+    position:relative;
+    left:20%;
+    top:20%;
+}
+
+h1{
+    text-align:center;
+}
+
+p{
+    margin-left:5px;
+    font-size:30px;
+}
+
+.about-info li{
+    font-size:30px;
+}
+
+.about-info button{
+    height:36px;
+    width:138px;
+    border-radius:10px;
+    margin-right:10%;
+    margin-bottom:5%;
+    margin-top:5%;
+    color:white;
+}
+
+#aptitude{
+    margin-left:2%;
+    background-color:red;
+}
+#web{
+    margin-left:20%;
+    background-color:blue;
+}
+#programming{
+    background-color:green;
+}
+#dsa{
+    background-color:blueviolet;
+}
+#csf{
+    background-color:yellowgreen;
+}
+#sql{
+    background-color: brown;
+}
+#oops{
+    background-color: black;
+}
+
+footer{
+    padding:10px;
+}
+.hello{
+    display:inline-block;
+    position:relative;
+    left:70%;
+    color:white;
+}
+.hello img{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.aptitude-info{
+    height:auto;
+}
+
+.aptitude-info li{
+    margin-bottom:5%;
+    margin-top:5%;
+}
+
+button{
+    border: 0px solid black;
+}
+
+

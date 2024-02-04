@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <style>
+        body{
+            margin:0px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <img src="./Logo.png" height="100px" style="position:relative; right:20%;" />
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contents">Contents</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="background">
+        <div class="about" id="about">
+        <marquee>Welcome to Placement-AKNSS placement Assistance Program</marquee>
+        <div class="about-info">
+        <h1>Placement-AKNSS</h1>
+        <p>Placement-AKNSS is a program that assists college students with all the necessary resources regarding the placement drives. It includes resources and contents that need to be followed by the college students to secure a job in a MNC.</p>
+        <p>This is inspired and dedicated to my team members:</p>
+        <ul>
+            <li>B. Akshitha</li>
+            <li>N. Keerthika</li>
+            <li>Ch. Nikshitha</li>
+            <li>R. Sai Kumar Reddy</li>
+        </ul>
+        <p style="text-align:center;">*************Happy Learning!!!*************</p>
+        </div> 
+        </div>
+        <div class="about-info" id="contents">
+            <h1>Contents</h1>
+            <button id="aptitude" onclick="aptitude()">Aptitude</button>
+            <button id="programming" onclick="program()">Programming</button>
+            <button id="dsa" onclick="dsa()">DSA</button>
+            <button id="csf" onclick="csf()">CS-Fundamentals</button>
+            <button id="web" onclick="web()">Web Development</button>
+            <button id="sql" onclick="sql()">SQL</button>
+            <button id="oops" onclick="oops()">OOPS</button>
+        </div>
+    </main>
+    <footer style="background-color:hsl(0,0%,25%);" id="contact">
+         <h3 class="hello">Contact Me:</h3>
+         <div class="hello">
+         <img src="./whatsapp.png" height="50px" alt="whatsapp"/>
+         <img src="./instagram.png" height="50px" alt="instagram" />
+         <img src="./linkedin.png" height="50px" alt="linkedin" />
+         </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
